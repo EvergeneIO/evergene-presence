@@ -7,7 +7,7 @@ presence.on("UpdateData", () => {
 const presenceData = {
   largeImageKey: "evergene-logo",
   startTimestamp: browsingStamp,
-  details: "On the homepage of Evergene",
+  details: "On the homepage",
   buttons: [{label: "Go to Evergene!", url: "https://evergene.io"}]
 }
 if (document.location.pathname.includes("/api")){
